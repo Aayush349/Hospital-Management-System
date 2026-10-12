@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment Variables (DO NOT COMMIT)
+.env
+.env.*
+*.env
+!.env.example
+
+# Node / Web
+node_modules/
+npm-debug.log*
+
+# Office / Temp
+~$*.docx
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
